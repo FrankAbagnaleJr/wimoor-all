@@ -176,8 +176,6 @@
             <groupId>biz-sources</groupId>
             <artifactId>biz-sources</artifactId>
             <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/resources/lib/ocean.client.java.biz-sources.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.biz</groupId>
