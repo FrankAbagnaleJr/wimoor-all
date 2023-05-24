@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "security",
+      "type": "com.wimoor.gateway.filter.SecurityGlobalFilter",
+      "sourceType": "com.wimoor.gateway.filter.SecurityGlobalFilter"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
