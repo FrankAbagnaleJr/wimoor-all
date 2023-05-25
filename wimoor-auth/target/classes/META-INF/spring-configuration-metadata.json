@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "spring.redis",
+      "type": "com.wimoor.auth.client.config.BootShiroRedisConfiguration",
+      "sourceType": "com.wimoor.auth.client.config.BootShiroRedisConfiguration"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

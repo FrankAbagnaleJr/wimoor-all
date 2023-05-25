@@ -1,0 +1,27 @@
+server:
+  port: 8087
+  servlet: 
+     context-path: /auth
+spring:
+  application:
+    name: wimoor-auth
+  cloud:
+    nacos:
+      server-addr: 192.168.101.65:8848
+      # 注册中心
+      discovery:
+        namespace: prod_wimoor
+        group: DEFAULT_GROUP
+      # 配置中心
+      config:
+        namespace: prod_wimoor
+        group: DEFAULT_GROUP
+        file-extension: yaml
+        # 公共配置
+        shared-configs[0]: 
+          data-id: wimoor-common
+          refresh: true
+        shared-configs[1]: 
+          data-id: wimoor-commom-ext
+          refresh: true
+
