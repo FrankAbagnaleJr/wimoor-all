@@ -7,12 +7,15 @@ spring:
     name: wimoor-shopee
   cloud:
     nacos:
+      server-addr: 192.168.101.65:8848
       # 注册中心
       discovery:
-        server-addr: 192.168.101.65:8848
+        namespace: prod_wimoor
+        group: DEFAULT_GROUP
       # 配置中心
       config:
-        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        namespace: prod_wimoor
+        group: DEFAULT_GROUP
         file-extension: yaml
         # 公共配置
         shared-configs[0]: 
