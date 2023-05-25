@@ -1,0 +1,16 @@
+{
+  "groups": [
+    {
+      "name": "alibaba",
+      "type": "com.wimoor.erp.purchase.alibaba.service.impl.PurchaseAlibabaAuthServiceImpl",
+      "sourceType": "com.wimoor.erp.purchase.alibaba.service.impl.PurchaseAlibabaAuthServiceImpl"
+    },
+    {
+      "name": "alibaba",
+      "type": "com.wimoor.erp.purchase.alibaba.service.impl.PurchaseAlibabaMessageHandler",
+      "sourceType": "com.wimoor.erp.purchase.alibaba.service.impl.PurchaseAlibabaMessageHandler"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
