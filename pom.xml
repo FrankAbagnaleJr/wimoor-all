@@ -36,7 +36,7 @@
         <spring-cloud-alibaba.version>2021.1</spring-cloud-alibaba.version>
         <druid.version>1.2.4</druid.version>
         <mybatis-plus.version>3.4.3</mybatis-plus.version>
-        <lombok.version>1.18.18</lombok.version>
+        <lombok.version>1.18.12</lombok.version>
         <javax-validator.version>1.1.0.Final</javax-validator.version>
         <hutool.version>5.5.8</hutool.version>
         <minio.version>7.1.0</minio.version>

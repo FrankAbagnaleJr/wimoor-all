@@ -23,7 +23,7 @@ public class ExchangeRateHis  implements Serializable{
 
  
     @TableId(value= "id",type=IdType.AUTO)
-    private int id;
+    private Integer id;
 
     @TableField(value= "name")
     private String name;

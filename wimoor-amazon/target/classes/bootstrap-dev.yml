@@ -39,7 +39,7 @@ seata:
   config:
     type: nacos #配置中心用的nacos
     nacos:
-      namespace: SEATA_GROUP #配置上面的namespace
+      namespace: prod_wimoor #配置上面的namespace
       serverAddr: http://192.168.101.65:8848 #nacos地址
       group: SEATA_GROUP #nacos分组
       userName: nacos
@@ -49,8 +49,8 @@ seata:
     nacos:
       application: seata-server #seata服务名称
       serverAddr: http://192.168.101.65:8848
-      group: SEATA_GROUP #nacos分组
-      namespace: SEATA_GROUP
+      group: DEFAULT_GROUP #nacos分组
+      namespace: prod_wimoor
       userName: nacos
       password: nacos
       cluster: default #集群默认
