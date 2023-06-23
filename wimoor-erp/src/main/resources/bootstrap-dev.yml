@@ -49,8 +49,8 @@ seata:
     nacos:
       application: seata-server
       serverAddr: http://192.168.101.65:8848
-      group: SEATA_GROUP
-      namespace: SEATA_GROUP
+      group: DEFAULT_GROUP
+      namespace: prod_wimoor
       userName: nacos
       password: nacos
       cluster: default
