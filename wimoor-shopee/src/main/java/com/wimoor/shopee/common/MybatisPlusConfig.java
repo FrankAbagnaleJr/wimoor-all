@@ -11,7 +11,8 @@ import org.springframework.context.annotation.Configuration;
  *  mybatis-plus 分页插件
  */
 @Configuration
-@MapperScan("com.example.demo.mapper")
+//@MapperScan("com.example.demo.mapper")
+@MapperScan("com.wimoor.shopee.mapper")
 public class MybatisPlusConfig {
 
     /**

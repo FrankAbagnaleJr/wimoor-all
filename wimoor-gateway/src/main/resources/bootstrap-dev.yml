@@ -15,10 +15,10 @@ spring:
         group: DEFAULT_GROUP
         file-extension: yaml
         # 公共配置
-        shared-configs[0]: 
+        shared-configs[0]:
           data-id: wimoor-common
           refresh: true
-        shared-configs[1]: 
+        shared-configs[1]:
           data-id: wimoor-commom-ext
           refresh: true
 

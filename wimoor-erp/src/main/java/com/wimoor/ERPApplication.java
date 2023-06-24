@@ -15,7 +15,6 @@ import com.wimoor.util.SpringUtil;
 @EnableTransactionManagement
 @EnableFeignClients
 @EnableCaching
-@ComponentScan
 public class ERPApplication {
 
     public static void main(String[] args) {
