@@ -7,11 +7,10 @@ spring:
     name: wimoor-admin
   cloud:
     nacos:
+      server-addr: 192.168.101.65:8848
       discovery:
-       server-addr: 192.168.101.65:8848
        namespace: prod_wimoor
       config:
-        server-addr: ${spring.cloud.nacos.discovery.server-addr}
         file-extension: Properties
         namespace: prod_wimoor
         # 公共配置

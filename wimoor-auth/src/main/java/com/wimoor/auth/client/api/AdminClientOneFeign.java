@@ -15,9 +15,6 @@ import com.wimoor.common.user.UserInfo;
 @Component
 @FeignClient(value = "wimoor-admin")
 public interface AdminClientOneFeign {
-
-    @RequestMapping("testt")
-    public String getTest();
     /**
      * eureka-client-one的helloworld访问mapping
      */
